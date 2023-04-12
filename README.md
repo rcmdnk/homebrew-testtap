@@ -13,13 +13,4 @@ $ brew tap rcmdnk/testtap
 $ brew create --tap rcmdnk/testtap [other options] <URL>
 ```
 
-
-:memo:
-
-`brew tap` might show a warning like:
-
-```
-warning: You appear to have cloned an empty repository.
-```
-
-However, it still works, at least for development using `brew test`.
+Then, you can work with a file in `$(brew --repo rcmdnk/testtap)`.
